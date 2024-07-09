@@ -4,13 +4,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Halwara House</title>
+    <title>Treasure Wears</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{asset('img/favicon.ico')}}">
+    <link rel="icon" type="image/x-icon" href="{{asset('front/images/logo.jpg')}}">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -46,7 +46,7 @@
                     <div class="bg-secondary rounded p-4 p-sm-5 my-4 mx-3">
                         <div class="d-flex align-items-center justify-content-center mb-3">
                             <a href="{{route('admin.index')}}" class="">
-                                <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>Halwara</h3>
+                                <h3 class="text-primary"><i class="fa fa-user-edit me-2"></i>Treasure Wears</h3>
                             </a>
 
                         </div>
