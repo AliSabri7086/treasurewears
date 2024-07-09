@@ -10,17 +10,17 @@
                         <h6><a href="https://goo.gl/maps/mh4vGdafyy8WNvRFA" target="_blank">People's Colony No 1,
                                 Faisalabad.</a></h6>
                         <div class="my-5">
-                            <a href="mailto:treasurewear09@gmail.com" target="_blank" class="mx-2">
+                            <a href="mailto:treasurewear09@gmail.com" target="_blank">
                                 <i class="fa-solid fa-envelope mr-3"
-                                    style="font-size: 35px;background-color: white;color:blue"></i> </a>
-                            <a href="https://wa.me/3361068390" target="_blank" class="mx-2"> <i
-                                    class="fa-brands fa-whatsapp mr-3"
+                                    style="font-size: 35px;background-color: white;color:#0db0ed"></i> </a>
+                            <a href="https://wa.me/3361068390" target="_blank"> <i class="fa-brands fa-whatsapp mr-3"
                                     style="font-size: 35px;background-color: white;color:green"></i></a>
-                            <a href="https://www.instagram.com/treasure_wears_09/" target="_blank" class="mx-2"> <i
+                            <a href="https://www.instagram.com/treasure_wears_09/" target="_blank"> <i
                                     class="fa-brands fa-instagram mr-3"
                                     style="font-size: 35px;background-color: white;color:red"></i></a>
-                            <!-- <a href="info@sarzone.com" target="_blank" class="mx-2"> <i class="fa-regular fa-envelope mr-3"
-                                        style="font-size: 35px;background-color: white;color:black"></i></a> -->
+                            <a href="https://www.facebook.com/profile.php?id=61562482161084"><i
+                                    style="font-size: 35px;background-color: white;color:rgb(0, 102, 255)"
+                                    class="fa-brands fa-facebook"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-6 my-3">
