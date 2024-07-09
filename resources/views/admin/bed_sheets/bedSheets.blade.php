@@ -7,7 +7,7 @@
 
 <div class="col-10 mx-auto my-5">
     <div class="bg-secondary rounded  p-4">
-        <div class="d-flex justify-content-between"> <h6 class="mb-4">Data</h6> <a class="btn btn-primary" href="{{route('admin.man.add')}}">Add Data</a></div>
+        <div class="d-flex justify-content-between"> <h6 class="mb-4">Data</h6> <a class="btn btn-primary" href="{{route('add.bed.sheets')}}">Add Data</a></div>
 
 @if (session()->has('msg'))
 <div class="alert alert-{{ session()->get('status') }}">{{ session()->get('msg') }}</div>

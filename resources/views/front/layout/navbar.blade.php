@@ -69,7 +69,7 @@
     </ol> --}}
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100 h-100" src="{{asset('front/images/IMG_2984.JPG')}}" alt="First slide">
+        <img class="d-block w-100 h-100" src="{{asset('front/images/WhatsApp.jpg')}}" alt="First slide">
 
       </div>
       <div class="carousel-item">
@@ -79,7 +79,7 @@
         <img class="d-block w-100 h-100" src="{{asset('front/images/IMG_2983.JPG')}}" alt="Third slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100 h-100" src="{{asset('front/images/WhatsApp Image 2024-06-29 at 17.01.34_24881de2.JPG')}}" alt="Third slide">
+        <img class="d-block w-100 h-100" src="{{asset('front/images/2.JPG')}}" alt="{{asset('front/images/2.JPG')}}">
       </div>
       <div class="carousel-item">
         <img class="d-block w-100 h-100" src="{{asset('front/images/IMG_2981.JPG')}}" alt="Third slide">

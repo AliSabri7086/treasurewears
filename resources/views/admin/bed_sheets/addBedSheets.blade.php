@@ -2,7 +2,7 @@
 @section('content')
 <div class="col-sm-12 col-xl-6 mx-auto my-5">
     <div class="bg-secondary rounded h-100 p-4">
-       <div class="d-flex justify-content-between"> <h6 class="mb-4">Add</h6> <a class="btn btn-primary" href="{{route('admin.man')}}">Show Data</a></div>
+       <div class="d-flex justify-content-between"> <h6 class="mb-4">Add</h6> <a class="btn btn-primary" href="{{route('bed.sheets')}}">Show Data</a></div>
        @if (session()->has('msg'))
        <div class="alert alert-{{ session()->get('status') }}">{{ session()->get('msg') }}</div>
    @endif

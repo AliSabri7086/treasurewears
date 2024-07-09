@@ -2,7 +2,7 @@
 @section('content')
 <div class="col-sm-12 col-xl-6 mx-auto my-5">
     <div class="bg-secondary rounded h-100 p-4">
-       {{-- <div class="d-flex justify-content-between"> <h6 class="mb-4">Add</h6> <a class="btn btn-primary" href="{{route('show.handi.craft')}}">Show Data</a></div> --}}
+       <div class="d-flex justify-content-between"> <h6 class="mb-4">Add</h6> <a class="btn btn-primary" href="{{route('show.handi.craft')}}">Show Data</a></div>
     <form action="{{route('handi.craft.store')}}" method="post" enctype="multipart/form-data">
         @csrf
         <div class="mb-3">
