@@ -68,7 +68,7 @@
         <ul>
                     <li> <a href="https://wa.me/3361068390"><i class="fa-brands fa-whatsapp"></i></a></li>
                     <li>  <a href="https://www.instagram.com/treasure_wears_09/"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li>  <a href="https://www.facebook.com/profile.php?id=61562482161084"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li>  <a href="https://www.facebook.com/profile.php?id=100086947453731&mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a></li>
                     <li>  <a href="mailto:treasurewear09@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
                     {{-- <li>  <a href="mailto:treasurewear09@gmail.com"><i class="fa-solid fa-facebook"></i></a></li> --}}
 

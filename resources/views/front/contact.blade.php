@@ -18,7 +18,7 @@
                             <a href="https://www.instagram.com/treasure_wears_09/" target="_blank"> <i
                                     class="fa-brands fa-instagram mr-3"
                                     style="font-size: 35px;background-color: white;color:red"></i></a>
-                            <a href="https://www.facebook.com/profile.php?id=61562482161084"><i
+                            <a href="https://www.facebook.com/profile.php?id=100086947453731&mibextid=LQQJ4d"><i
                                     style="font-size: 35px;background-color: white;color:rgb(0, 102, 255)"
                                     class="fa-brands fa-facebook"></i></a>
                         </div>
