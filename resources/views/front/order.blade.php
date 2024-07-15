@@ -58,3 +58,4 @@
             {{-- <div class="buynow_bt"><a href="#" type="submit">Buy Now</a></div> --}}
             <button type="submit" class="form-control"> submit</button>
     </form>
+    

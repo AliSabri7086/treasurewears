@@ -846,7 +846,7 @@ a:hover {
 .footer_section {
     width: 100%;
     float: left;
-    background-color: #252525;
+    background-color: #8f8d8d;
     height: auto;
 }
 
@@ -923,7 +923,7 @@ input.mail_bt::placeholder {
 }
 
 .footer_menu li a {
-    color: #f1f1f1;
+    color: #000000;
 }
 
 .footer_menu li a:hover {
@@ -945,12 +945,12 @@ input.mail_bt::placeholder {
 .location_main {
     float: left;
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
     padding: 30px 30px 30px 30px;
 }
 
 .location_main a {
-    color: #ffffff;
+    color: #000000;
 }
 
 .location_main a:hover {
@@ -966,21 +966,21 @@ input.mail_bt::placeholder {
 .copyright_section {
     width: 100%;
     float: left;
-    background-color: #252525;
+    background-color: #8F8D8D;
     height: auto;
 }
 
 .copyright_text {
     width: 100%;
     float: left;
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     font-size: 16px;
     margin: 20px 0px;
 }
 
 .copyright_text a {
-    color: #ffffff;
+    color: #000000;
 }
 
 .copyright_text a:hover {
@@ -993,3 +993,15 @@ input.mail_bt::placeholder {
 
 
 /* copyright section end */
+
+
+
+
+
+
+
+
+
+
+
+
