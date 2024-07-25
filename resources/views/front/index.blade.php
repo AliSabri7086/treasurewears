@@ -272,7 +272,7 @@
 
 
     <div id="handi_craft" class="carousel slide" data-ride="carousel">
-        <h1 class="fashion_taital my-5"> T shirts mens</h1>
+        <h1 class="fashion_taital my-5"> T-shirts mens</h1>
        <div class="container">
         <div class="carousel-inner">
             @php $i = 0; @endphp
