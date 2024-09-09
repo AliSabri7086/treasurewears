@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\BedSheetsController;
+use App\Http\Controllers\CigaretteController;
 use App\Http\Controllers\FrontController;
 use App\Http\Controllers\HandiCraftController;
 use App\Http\Controllers\IndexController;
@@ -44,44 +45,44 @@ Route::group(['prefix'=>'user','middleware'=>'UserCheck'],function(){
 });
 
 
-Route::group(['prefix'=>'pedal/rackets','middleware'=>'UserCheck'],function(){
+Route::group(['prefix'=>'custom/Soap','middleware'=>'UserCheck'],function(){
 Route::get('/',[WomanController::class,'index'])->name('admin.woman');
 Route::get('add',[WomanController::class,'create'])->name('admin.woman.add');
 Route::post('store',[WomanController::class,'store'])->name('admin.woman.store');
-Route::get('pedal/rackets/edit/{id}',[WomanController::class,'edit'])->name('admin.woman.edit');
-Route::post('pedal/rackets/update',[WomanController::class,'update'])->name('admin.woman.update');
+Route::get('Soap/edit/{id}',[WomanController::class,'edit'])->name('admin.woman.edit');
+Route::post('Soap/update',[WomanController::class,'update'])->name('admin.woman.update');
 Route::get('/delete/{id}',[WomanController::class,'destroy'])->name('woman.delete');
 
 });
-Route::group(['prefix'=>'football/uniform','middleware'=>'UserCheck'],function(){
+Route::group(['prefix'=>'CBD','middleware'=>'UserCheck'],function(){
 Route::get('/',[ManController::class,'index'])->name('admin.man');
-Route::get('add/football/uniform',[ManController::class,'create'])->name('admin.man.add');
+Route::get('add',[ManController::class,'create'])->name('admin.man.add');
 Route::post('store',[ManController::class,'store'])->name('admin.man.store');
-Route::get('football/uniform/edit/{id}',[ManController::class,'edit'])->name('admin.man.edit');
-Route::post('football/uniform/update',[ManController::class,'update'])->name('admin.man.update');
-Route::get('football/uniform/delete/{id}',[ManController::class,'destroy'])->name('man.delete');
+Route::get('CBD/edit/{id}',[ManController::class,'edit'])->name('admin.man.edit');
+Route::post('CBD/update',[ManController::class,'update'])->name('admin.man.update');
+Route::get('CBD/delete/{id}',[ManController::class,'destroy'])->name('man.delete');
 });
 
 
 
-Route::group(['prefix'=>'T-shirts/mens','middleware'=>'UserCheck'],function(){
+Route::group(['prefix'=>'Candle','middleware'=>'UserCheck'],function(){
     Route::get('/',[HandiCraftController::class,'index'])->name('show.handi.craft');
     Route::get('/add',[HandiCraftController::class,'create'])->name('add.handi.craft');
     Route::post('store',[HandiCraftController::class,'store'])->name('handi.craft.store');
-    Route::get('T-shirts/mens/edit/{id}',[HandiCraftController::class,'edit'])->name('handi.craft.edit');
-    Route::post('T-shirts/mens/update',[HandiCraftController::class,'update'])->name('handi.craft.update');
-    Route::get('T-shirts/mens/delete/{id}',[HandiCraftController::class,'destroy'])->name('handi.craft.delete');
+    Route::get('Candle/edit/{id}',[HandiCraftController::class,'edit'])->name('handi.craft.edit');
+    Route::post('Candle/update',[HandiCraftController::class,'update'])->name('handi.craft.update');
+    Route::get('Candle/delete/{id}',[HandiCraftController::class,'destroy'])->name('handi.craft.delete');
 });
 
 
-Route::group(['prefix'=>'soccer/uniform','middleware'=>'UserCheck'],function(){
+Route::group(['prefix'=>'Vape','middleware'=>'UserCheck'],function(){
 
     Route::get('/',[BedSheetsController::class,'index'])->name('bed.sheets');
     Route::get('/add',[BedSheetsController::class,'create'])->name('add.bed.sheets');
     Route::post('store',[BedSheetsController::class,'store'])->name('bed.sheets.store');
-    Route::get('soccer/uniform/edit/{id}',[BedSheetsController::class,'edit'])->name('bed.sheets.edit');
-    Route::post('soccer/uniform/update',[BedSheetsController::class,'update'])->name('bed.sheets.update');
-    Route::get('soccer/uniform/delete/{id}',[BedSheetsController::class,'destroy'])->name('bed.sheets.delete');
+    Route::get('Vape/edit/{id}',[BedSheetsController::class,'edit'])->name('bed.sheets.edit');
+    Route::post('Vape/update',[BedSheetsController::class,'update'])->name('bed.sheets.update');
+    Route::get('Vape/delete/{id}',[BedSheetsController::class,'destroy'])->name('bed.sheets.delete');
 
 });
 Route::group(['prefix'=>'admin/sports/wears','middleware'=>'UserCheck'],function(){
@@ -94,6 +95,219 @@ Route::group(['prefix'=>'admin/sports/wears','middleware'=>'UserCheck'],function
     Route::get('delete/{id}',[SportswearsController::class,'destroy'])->name('sports.wears.delete');
 
 });
+
+
+
+
+Route::group(['prefix'=>'cigarette','middleware'=>'UserCheck'],function(){
+
+    Route::get('/',[CigaretteController::class,'index'])->name('admin.cigarette');
+    Route::get('/add',[CigaretteController::class,'create'])->name('add.cigarette');
+    Route::post('store',[CigaretteController::class,'store'])->name('store.cigarette');
+    Route::get('edit/{id}',[CigaretteController::class,'edit'])->name('cigarette.edit');
+    Route::post('update',[CigaretteController::class,'update'])->name('cigarette.update');
+    Route::get('delete/{id}',[CigaretteController::class,'destroy'])->name('cigarette.delete');
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Route::group(['prefix'=>'orders','middleware'=>'UserCheck'],function(){
@@ -112,10 +326,11 @@ Route::group(['prefix'=>'orders','middleware'=>'UserCheck'],function(){
 
 
 Route::get('/',[FrontController::class,'index'])->name('front.index');
-Route::get('/productView/{id}', [FrontController::class,'womanProductView'])->name('productView');
-Route::get('custom/football/uniform/productView/{id}', [FrontController::class,'manProductView'])->name('man.football');
-Route::get('Custom/soccer/uniform/View/{id}', [FrontController::class,'handiProductView'])->name('handi.soccer');
-Route::get('T-shirts/mens/View/{id}', [FrontController::class,'bedProductView'])->name('bed.T-shirts');
+Route::get('/Soap/{id}', [FrontController::class,'womanProductView'])->name('productView');
+Route::get('/Cigarette/{id}', [FrontController::class,'cigaretteProductView'])->name('cigaretteProductView');
+Route::get('CBD/{id}', [FrontController::class,'manProductView'])->name('man.football');
+Route::get('Candle/{id}', [FrontController::class,'handiProductView'])->name('handi.soccer');
+Route::get('Vape/{id}', [FrontController::class,'bedProductView'])->name('bed.T-shirts');
 Route::get('sportswears/View/{id}', [FrontController::class,'sportswears'])->name('sportswears');
 // ====================== product View end ======================
 
@@ -131,11 +346,12 @@ Route::POST('order', [FrontController::class,'order'])->name('place.order');
 
 // ====================== Front Pages  ======================
 
-Route::get('custom/pedal/rackets/details', [FrontController::class,'womanDetails'])->name('woman.details');
-Route::get('custom/football/uniform/details', [FrontController::class,'manDetails'])->name('man.details');
-Route::get('Custom/soccer/uniform/details', [FrontController::class,'Cosmetics'])->name('Cosmetics.details');
-Route::get('T-shirts/mens/details', [FrontController::class,'bedDetails'])->name('bed.sheets.details');
-Route::get('sport/swears/details', [FrontController::class,'sportswears_details'])->name('sportswears.details');
+Route::get('custom/Soap/Boxes', [FrontController::class,'womanDetails'])->name('woman.details');
+Route::get('custom/CBD/boxes', [FrontController::class,'manDetails'])->name('man.details');
+Route::get('Custom/Candle/boxes', [FrontController::class,'Cosmetics'])->name('Cosmetics.details');
+Route::get('vape/boxes', [FrontController::class,'bedDetails'])->name('bed.sheets.details');
+Route::get('sport/swears', [FrontController::class,'sportswears_details'])->name('sportswears.details');
+Route::get('custom/Cigarette/boxes', [FrontController::class,'Cigarettedetails'])->name('Cigarette.details');
 Route::get('Contact', [FrontController::class,'Contact'])->name('Contact');
 
 // ====================== Front Pages end ======================

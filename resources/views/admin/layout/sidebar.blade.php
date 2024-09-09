@@ -28,37 +28,45 @@
 
 
             <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i> Pedal rackets</a>
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i> Soap</a>
                 <div class="dropdown-menu bg-transparent border-0">
-                    <a href="{{route('admin.woman')}}" class="dropdown-item"> Pedal rackets</a>
-                    <a href="{{route('admin.woman.add')}}" class="dropdown-item">add  Pedal rackets</a>
+                    <a href="{{route('admin.woman')}}" class="dropdown-item"> Soap</a>
+                    <a href="{{route('admin.woman.add')}}" class="dropdown-item">add  Soap</a>
 
                 </div>
             </div>
 
             <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i> football uniform</a>
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i> CBD</a>
                 <div class="dropdown-menu bg-transparent border-0">
-                    <a href="{{route('admin.man')}}" class="dropdown-item">Show football uniform </a>
-                    <a href="{{route('admin.man.add')}}" class="dropdown-item">add football uniform</a>
+                    <a href="{{route('admin.man')}}" class="dropdown-item">Show CBD </a>
+                    <a href="{{route('admin.man.add')}}" class="dropdown-item">add CBD</a>
 
                 </div>
             </div>
 
 
             <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>T shirts mens</a>
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>Candle</a>
                 <div class="dropdown-menu bg-transparent border-0">
-                    <a href="{{route('show.handi.craft')}}" class="dropdown-item">Show T shirts mens</a>
-                    <a href="{{route('add.handi.craft')}}" class="dropdown-item">Add T shirts mens</a>
+                    <a href="{{route('show.handi.craft')}}" class="dropdown-item">Show Candle</a>
+                    <a href="{{route('add.handi.craft')}}" class="dropdown-item">Add Candle</a>
 
                 </div>
             </div>
             <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>soccer uniform</a>
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>Vape</a>
                 <div class="dropdown-menu bg-transparent border-0">
-                    <a href="{{route('bed.sheets')}}" class="dropdown-item">Show soccer uniform</a>
-                    <a href="{{route('add.bed.sheets')}}" class="dropdown-item">Add soccer uniform</a>
+                    <a href="{{route('bed.sheets')}}" class="dropdown-item">Show Vape</a>
+                    <a href="{{route('add.bed.sheets')}}" class="dropdown-item">Add Vape</a>
+
+                </div>
+            </div>
+            <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>Cigarette</a>
+                <div class="dropdown-menu bg-transparent border-0">
+                    <a href="{{route('admin.cigarette')}}" class="dropdown-item">Show Cigarette</a>
+                    <a href="{{route('add.bed.sheets')}}" class="dropdown-item">Add Cigarette</a>
 
                 </div>
             </div>

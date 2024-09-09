@@ -851,7 +851,7 @@ a:hover {
 }
 
 .footer_logo {
-    width: 30% !important;
+    width: 100% !important;
     /* height: 44px; */
     display: flex;
     justify-content: center !important;
@@ -905,7 +905,8 @@ input.mail_bt::placeholder {
 
 .footer_menu {
     width: 100%;
-    margin: 0 auto;
+    margin:auto;
+    /* background-color: #190479; */
     text-align: center;
 }
 

@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\bed_sheets;
+use App\Models\Cigarette;
 use Illuminate\Http\Request;
 
-class BedSheetsController extends Controller
+class CigaretteController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,8 +14,9 @@ class BedSheetsController extends Controller
      */
     public function index()
     {
-        $bed_sheets= bed_sheets::get();
-        return view('admin.bed_sheets.bedSheets',['bed_sheets'=>$bed_sheets]);
+        $cigarette= Cigarette::get();
+        return view('admin.cigarette.show',['cigarette'=>$cigarette]);
+
     }
 
     /**
@@ -25,7 +26,7 @@ class BedSheetsController extends Controller
      */
     public function create()
     {
-        return view('admin.bed_sheets.addBedSheets');
+        return view('admin.cigarette.add');
     }
 
     /**
@@ -43,7 +44,7 @@ class BedSheetsController extends Controller
 
         ]);
 
-        bed_sheets::create([
+        Cigarette::create([
             'description'=>$request->description,
             'heading'=>$request->heading,
             'price'=>$request->price,
@@ -56,10 +57,10 @@ class BedSheetsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\bed_sheets  $bed_sheets
+     * @param  \App\Models\Cigarette  $cigarette
      * @return \Illuminate\Http\Response
      */
-    public function show(bed_sheets $bed_sheets)
+    public function show(Cigarette $cigarette)
     {
         //
     }
@@ -67,26 +68,27 @@ class BedSheetsController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\bed_sheets  $bed_sheets
+     * @param  \App\Models\Cigarette  $cigarette
      * @return \Illuminate\Http\Response
      */
-    public function edit(bed_sheets $bed_sheets,$id)
+    public function edit(Cigarette $Cigarette,$id)
     {
-        $bed_sheets=bed_sheets::where('id',$id)->first();
-        return view('admin.bed_sheets.editBedSheets',['bed_sheets'=>$bed_sheets]);
+        $Cigarette=Cigarette::where('id',$id)->first();
+        return view('admin.cigarette.adit',['Cigarette'=>$Cigarette]);
     }
+
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\bed_sheets  $bed_sheets
+     * @param  \App\Models\Cigarette  $cigarette
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, bed_sheets $bed_sheets)
+    public function update(Request $request, Cigarette $cigarette)
     {
         if ($request->image) {
-            bed_sheets::where('id',$request->id)->update([
+            Cigarette::where('id',$request->id)->update([
                 'description'=>$request->description,
                 'heading'=>$request->heading,
                 'price'=>$request->price,
@@ -94,7 +96,7 @@ class BedSheetsController extends Controller
 
             ]);
         } else {
-           bed_sheets::where('id',$request->id)->update([
+           Cigarette::where('id',$request->id)->update([
                 'description'=>$request->description,
                 'heading'=>$request->heading,
                 'price'=>$request->price,
@@ -102,19 +104,19 @@ class BedSheetsController extends Controller
         }
 
 
-        return redirect()->route('bed.sheets');
+        return redirect()->route('admin.cigarette');
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\bed_sheets  $bed_sheets
+     * @param  \App\Models\Cigarette  $cigarette
      * @return \Illuminate\Http\Response
      */
-    public function destroy(bed_sheets $bed_sheets,$id)
+    public function destroy(Cigarette $Cigarette,$id)
     {
-        $bed_sheets=bed_sheets::where('id',$id);
-        $bed_sheets->delete();
+        $Cigarette=Cigarette::where('id',$id);
+        $Cigarette->delete();
         return redirect()->back()->with("msg","Deleted Successfully")->with("status","primary");
     }
 
@@ -128,11 +130,8 @@ class BedSheetsController extends Controller
         $extension = $image->extension();
         $nameToStore = $filename['filename'] . "_".time().".".$extension;
         //Move to folder
-        $path = $image->move('public/upload/bed_sheets/' ,$nameToStore);
+        $path = $image->move('public/upload/Cigarette/' ,$nameToStore);
         return $nameToStore;
 
 }
-
-
-
 }

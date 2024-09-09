@@ -1,4 +1,4 @@
-{{-- @extends('front.layout.layout')
+@extends('front.layout.layout')
 @section('content')
 <div class="container">
     <div class="row">
@@ -6,11 +6,12 @@
         <h2>Product Details</h2>
 
         <div class="card">
-          <img class="card-img-top woman-img" src="{{ asset('upload/bed_sheets/') }}/{{$bed_sheets->image}}" alt="Product Image ">
+          <img class="card-img-top woman-img" src="{{ asset('upload/Cigarette/') }}/{{$Cigarette->image}}" alt="Product Image">
           <div class="card-body">
-            <h3 class="card-title text-center"> {{$bed_sheets->heading}} </h3>
+            <h3 class="card-title text-center"> {{$Cigarette->heading}} </h3>
+
             <h2 class="card-text">Description.</h2>
-            <p class="card-text"> {{$bed_sheets->description}} </p>
+            <p class="card-text"> {{$Cigarette->description}} </p>
             <hr>
 
           </div>
@@ -27,4 +28,4 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-@endsection --}}
+@endsection

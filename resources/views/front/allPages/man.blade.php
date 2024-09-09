@@ -2,7 +2,7 @@
 @section('content')
     <div class="container">
         <div class="fashion_section_2">
-            <h1 class="fashion_taital"> Custom football uniform</h1>
+            <h1 class="fashion_taital"> Custom CBD</h1>
             {{-- <div class="row">
                 @foreach ($man as $item)
                     <div class="col-lg-4 col-sm-4">

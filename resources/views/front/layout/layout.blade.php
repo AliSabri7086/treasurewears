@@ -31,6 +31,7 @@
       <!-- font awesome -->
       <link rel="stylesheet" type="text/css" href="{{asset('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css')}}">
       <!--  -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" rel="stylesheet"/>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
@@ -48,28 +49,33 @@
       @yield('content')
   <!-- jewellery  section end -->
 <!-- footer section start -->
-<div class="footer_section layout_padding mt-5">
+<div class="footer_section layout_padding  ">
     <div class="container">
         <center> <div class="footer_logo"><a href="{{route('front.index')}}"><img src="{{asset('front/images/logo-removebg-preview.png')}}"></a></div></center>
 
-       <div class="footer_menu">
-          <ul>
+       <div class="footer_menu text-center">
+          <ul >
             <li>  <a href="{{route('front.index')}}">Home</a></li>
-                      <li> <a href="{{route('woman.details')}}">Custom Pedal rackets</a></li>
-                      <li>  <a href="{{route('man.details')}}">Custom football uniform</a></li>
-                      <li>  <a href="{{route('Cosmetics.details')}}">Custom football uniform</a></li>
-                      <li>   <a href="{{route('bed.sheets.details')}}">T shirts mens</a></li>
-                      <li>   <a href="{{route('bed.sheets.details')}}">Sports wears</a></li>
+            <li><a href="#">Custom Soap Boxes</a></li>
+            <li><a href="#">Custom CBD Boxes</a></li>
+            <li><a href="#">Custom Candle Boxes</a></li>
+            <li><a href="#">Custom Vape Boxes</a></li>
+            <li ><a href="#">Custom Cigarette Boxes</a></li>
+
+                      <li>   <a href="{{route('bed.sheets.details')}}">Custom Sports</a></li>
+
                       <li>   <a href="{{ route('Contact') }}">Contact Us</a></li>
           </ul>
+          {{-- <hr> --}}
        </div>
-       <div class="location_main">WhatsApp Number : <a href="tel:+923361068390">+92 336 1068 390</a></div>
+
+       <div class="location_main">WhatsApp Number : <a href="tel:+17139253720">+1 (713) 925-3720</a></div>
        <div class="footer_menu">
         <ul>
-                    <li> <a href="https://wa.me/3361068390"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li> <a href="https://wa.me/17139253720"><i class="fa-brands fa-whatsapp"></i></a></li>
                     <li>  <a href="https://www.instagram.com/treasure_wears_09/"><i class="fa-brands fa-instagram"></i></a></li>
                     <li>  <a href="https://www.facebook.com/profile.php?id=61555818713264&mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li>  <a href="mailto:treasurewear09@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                    <li>  <a href="mailto:info@treasurewears.com"><i class="fa-solid fa-envelope"></i></a></li>
                     {{-- <li>  <a href="mailto:treasurewear09@gmail.com"><i class="fa-solid fa-facebook"></i></a></li> --}}
 
         </ul>
@@ -91,6 +97,7 @@
       <script src="{{asset('front/js/jquery-3.0.0.min.js')}}"></script>
       <script src="{{asset('front/js/plugin.js')}}"></script>
       <!-- sidebar -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script src="{{asset('front/js/jquery.mCustomScrollbar.concat.min.js')}}"></script>
       <script src="{{asset('front/js/custom.js')}}"></script>
       <script>
@@ -101,6 +108,9 @@
          function closeNav() {
            document.getElementById("mySidenav").style.width = "0";
          }
+      </script>
+      <script>
+        AOS.init();
       </script>
 
    </body>
